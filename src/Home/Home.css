@@ -1,0 +1,21 @@
+.home-container {
+    max-width: 445px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.home-container p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.welcome-message {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}

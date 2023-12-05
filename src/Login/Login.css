@@ -1,0 +1,17 @@
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffe4e1;
+}
+
+.login-container .btn-primary {
+    background-color: #ff6347;
+}
+
+.login-container .link {
+    color: #ff6347;
+}
+
