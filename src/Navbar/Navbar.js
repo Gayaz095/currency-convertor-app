@@ -1,7 +1,7 @@
 import React from "react";
 //npm install react-router-dom
 import { Link } from "react-router-dom";
-//Importing the required component and image
+//Importing the required image and component
 import logoImage from "./image.jpg";
 import "./Navbar.css";
 
@@ -11,11 +11,12 @@ const Navbar = ({ loggedIn, handleLogout }) => {
       <div className="container">
         <Link to="/" className="logo-link">
           <div className="logo-container">
-            <img src={logoImage} alt="Your Logo" className="logo-img" />
+            <img src={logoImage} alt="Logo" className="logo-img" />
           </div>
         </Link>
         <>
           <ul className="navbar-nav ms-auto">
+            {/* Logic for displaying Logout button with respect to loggedIn variable */}
             {loggedIn ? (
               <li className="nav-item">
                 <button

@@ -1,17 +1,17 @@
 .signup-container {
     max-width: 400px;
     margin: auto;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(221, 221, 221);
     padding: 20px;
     border-radius: 8px;
-    background-color: #f0f8ff;
+    background-color: rgb(240, 248, 255);
 }
 
 .signup-container .btn-primary {
-    background-color: #4169e1;
+    background-color: rgb(65, 105, 225);
 }
 
 .signup-container .link {
-    color: #4169e1;
+    color: rgb(65, 105, 225);
 }
 

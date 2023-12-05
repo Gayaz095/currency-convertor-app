@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+//npm install react-router-dom
 import { useNavigate, Link } from "react-router-dom";
+//Install and import necessary bootstrap and component
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./SignUp.css";
 
@@ -9,20 +11,23 @@ const SignUp = ({ setLoggedIn }) => {
   const navigate = useNavigate();
 
   const handleSignUp = () => {
+    //Handling if input fields are empty or not validating
     if (!username || !password) {
       alert("Please fill in all fields");
       return;
     }
-
+    //Storing data in localStorage
     localStorage.setItem("username", username);
     localStorage.setItem("password", password);
     alert("Sign Up successful!");
+    //If successful then navigate to Login
     navigate("/login");
   };
 
   return (
     <div className="signup-container mt-5">
       <h2>Sign Up</h2>
+      {/*Signup Form */}
       <form>
         <div className="mb-3">
           <label htmlFor="username" className="form-label">
@@ -55,7 +60,7 @@ const SignUp = ({ setLoggedIn }) => {
           Sign Up
         </button>
         <p className="mt-3">
-          Already have an account?{" "}
+          Already have an account?
           <Link to="/login" className="link">
             Log in
           </Link>
