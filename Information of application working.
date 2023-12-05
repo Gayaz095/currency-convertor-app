@@ -1,0 +1,15 @@
+The Navbar serves as the navigation hub for the application. The logo is displayed prominently at the top-left corner and is made interactive by linking it to the Home page. 
+
+Each page features a container with a border, padding, and rounded corners, providing a clean and organized layout. 
+
+The Home page acts as a gateway, displaying a welcome message or redirecting users to the Dashboard if they are logged in. 
+
+The forms include input fields for username and password. The logic ensures that users cannot sign up or log in without filling in all required fields, prompting a message to do so. Upon successful sign-up, users are directed to the login page.
+
+The Dashboard is the central feature where currency conversions take place.
+
+Styling is applied using Bootstrap and custom CSS to create a visually appealing user interface. 
+
+User feedback, in the form of alerts, provides informative messages about successful actions or prompts users to correct their input.
+
+The Navbar includes a "Logout" button that securely logs users out of their accounts, providing a smooth transition between sessions.
